@@ -22,10 +22,11 @@ lottie_coding = load_lottieurl("https://lottie.host/dba63213-cda9-480a-a899-7c50
 
 # -- HEADER SECTION -- 
 with st.container():
-    st.subheader("Hi, I'm Hassan :wave:")
-    st.title("Welcome!")
-    st.write("This is a simple web app built using Streamlit. It's a great tool for building simple web apps with Python. You can use it to build simple web apps for data science, machine learning, and more.")
-    st.write("I hope you enjoy it! :smile:")
+    st.subheader("Bonjour, I'm Hassan :wave:")
+    st.title("Bienvenu!")
+    st.write("This website is under-development as of now to be a resume/portfolio website :rocket: ")
+    st.write("Till then, view the few things I've added! :smile:")
+    st.write("ALso yes, this is a multi-lingual website :grin:")
     st.write("[LinkedIn >](https://www.linkedin.com/in/muhammadhassan7/)")
 
 
@@ -38,7 +39,7 @@ with st.container():
         st.write("##")
         st.write(
             """
-            I work in a Fintech startup.
+            I work in a Fintech startup as an Experience Associate and I'm also working to be a freelance web developer/programmer.
             """
         )
         
@@ -53,13 +54,20 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((1, 2))
     with text_column:
-        st.write("-")
+        st.write("Working on another resume/portfolio website for myself using Django in Python.")
+    
+    st.write("---")
+    st.subheader("Discord Bot")
+    st.write("##")
+    image_column, text_column = st.columns((1, 2))
+    with text_column:
+        st.write("Discord Bot that can respond to messages & is under-development for supporting Events & Commands.")
 
 
 # -- CONTACT FORM --
 with st.container():
     st.write("---")
-    st.header("Hit Me Up!")
+    st.header("Don't hesitate to reach out!")
     st.write("##")
     
     contact_form = """
